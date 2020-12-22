@@ -19,3 +19,16 @@ SegmentTree < int > rangeSumQueries(dataVector,0,sum);
 
 long long product(long long x,long long y){return x*y;}
 SegmentTree < long long > rangeProductQueries(dataVector,1,product);
+
+DSU
+
+union find data structure with union by rank and path compression heuristics To use the library:
+
+include "DSU.h" in your source file.
+following functionalities are provided:
+a. construct DSU with n groups.
+b. add new group to the DSU.
+c. merge two existing groups.
+d. find the root of the group to which an element belongs.
+e. find number of elements in the group to which an element belongs.
+Example usage : DSU myDSU(n);
